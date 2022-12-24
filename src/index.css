@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700@display=swap');
+
+*{
+  margin: 0;
+  font-family: "Quicksand";
+  align-items: center;
+  padding: 5px;
+}
+
+.disclaimer{
+  font-size: 20px;
+}
+
+.genderlabel{
+  font-size: 25px;
+}
+.center{
+  font-size: 50px;
+}
+
+.result{
+  font-size: 25px;
+  color:rgb(226, 43, 43)
+}
+
+.form{
+  font-size: 25px;
+}
+
+.btn{
+  font-size: 25px;
+}
