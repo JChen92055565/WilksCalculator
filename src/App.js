@@ -107,19 +107,19 @@ function App() {
       <form className = 'form' onSubmit = {calcWilks}>
         Enter your Numbers:
         <div>
-          <label>weight (lbs)</label>
+          <label>weight</label>
           <input value = {weight} onChange={(event) => setWeight(event.target.value)}/>
         </div>
         <div>
-          <label> squat (lbs)</label>
+          <label> squat</label>
           <input value = {squat} onChange={(event) => setSquat(event.target.value)}/>
         </div>
         <div>
-          <label> bench (lbs)</label>
+          <label> bench</label>
           <input value = {bench} onChange={(event) => setBench(event.target.value)}/>
         </div>
         <div>
-          <label> deadlift (lbs)</label>
+          <label> deadlift</label>
           <input value = {deadlift} onChange={(event) => setDeadlift(event.target.value)}/>
         </div>
 
